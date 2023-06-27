@@ -23,7 +23,7 @@ int main(void)
 		sum += password[index++];
 	}
 
-	password[ndex] = '\0';
+	password[index] = '\0';
 
 	if (sum != 2772)
 	{
