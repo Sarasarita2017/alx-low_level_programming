@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - returns th length of a string
+ * _strlen_recursion - returns the length of a string.
  * @s: string
- * Return: the lenght of a string
+ * Return: the lenght of a string.
  */
 int _strlen_recursion(char *s)
 {
@@ -14,7 +14,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * comparator - compares each character of the string
+ * comparator - compares each character of the string.
  * @s: string
  * @n1: smallest iterator.
  * @n2: biggest iterator.
