@@ -32,7 +32,7 @@ int comparator(char *s, int n1, int n2)
 }
 
 /**
- * isi_palindrome - detects if a string is a palindrome
+ * isi_palindrome - detects if a string is a palindrome.
  * @s: string.
  * Retrun: 1 if s is a palindrome, 0 if not.
  */
