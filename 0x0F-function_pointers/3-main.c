@@ -5,10 +5,11 @@
 /**
  * main - prints the result of simple operations.
  * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
  */
-int main(int__attribute__((__unused__)) argc, char *argv)
+int main(__attribute__((__unused__)) argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
@@ -29,8 +30,7 @@ int main(int__attribute__((__unused__)) argc, char *argv)
 		exit(99);
 	}
 
-	if((*op == '\' && num2 == 0) ||
-	(*op == '%' && num2 == 0))
+	if((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
